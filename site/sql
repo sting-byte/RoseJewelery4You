@@ -1,0 +1,31 @@
+CREATE TABLE creates a new table.
+eg:
+create table tbelnaam(
+	kolom1 datatype,
+	kolom2 datatype,
+	kolom3 datatype,
+);
+INSERT INTO adds a new row to a table.
+eg:
+insert into tabelnaam(kolom1,kolom2, etc)
+values(waarde1, waarde2, etc)
+
+SELECT queries data from a table.
+eg:
+select kolom
+from tabel_naam
+
+ALTER TABLE changes an existing table.
+eg:
+alter table tabel_naam
+add kolomnaam datatype;
+
+UPDATE edits a row in a table.
+eg:
+update tabel_naam
+set kolom1 = waarde1, kolom2 = waarde2
+where conditie
+
+DELETE FROM deletes rows from a table.
+eg:
+delete from tabelnaam where condition

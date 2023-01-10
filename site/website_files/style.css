@@ -66,6 +66,7 @@ body {
   text-transform: uppercase;
   color: #fefefe;
   text-align: center;
+  opacity: 0;
 }
 
 .custom_menu-btn button {
@@ -443,8 +444,8 @@ a:focus {
 
 .product_img-box {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: collumn;
+  align-items: stretch;
   background-color: #f8f8f8;
 }
 
@@ -458,13 +459,13 @@ a:focus {
   color: #fefeff;
   padding: 2px 17px;
   margin-top: -30px;
-  margin-bottom: 15px;
 }
 
 .product_detail-box {
   text-align: center;
   color: #717171;
   margin-top: 10px;
+
 }
 
 .product_detail-box span {
@@ -479,7 +480,7 @@ a:focus {
 }
 
 .find_section img {
-  width: 100%;
+  width: 75%;
 }
 
 .find_section p {

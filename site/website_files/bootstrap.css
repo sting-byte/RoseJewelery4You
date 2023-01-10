@@ -153,7 +153,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: transparent;
   text-decoration: none;
   background-color: transparent;
 }
@@ -592,6 +592,8 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin-top: 10px;
+  margin-bottom: 120px;
 }
 
 .no-gutters {
@@ -4087,6 +4089,7 @@ input[type="button"].btn-block {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+  
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -4346,6 +4349,7 @@ input[type="button"].btn-block {
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
+    color: transparent;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
